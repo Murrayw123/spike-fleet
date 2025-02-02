@@ -3,8 +3,6 @@ kind: Service
 metadata:
   name: coredns-lb
   namespace: kube-system
-  annotations:
-    harvesterhci.io/load-balancer: "defaultlb"
 spec:
   selector:
     k8s-app: coredns-test

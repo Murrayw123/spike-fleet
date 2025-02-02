@@ -1,0 +1,10 @@
+apiVersion: networking.harvesterhci.io/v1beta1
+kind: IPPool
+metadata:
+  name: default-ip-pool
+spec:
+  ranges:
+    - subnet: 10.10.10.1/24
+  selector:
+    scope:
+      namespace: default
