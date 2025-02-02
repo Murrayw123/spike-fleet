@@ -4,7 +4,7 @@ metadata:
   name: coredns-lb
   namespace: kube-system
   annotations:
-    harvesterhci.io/load-balancer: "defaultlb"
+    harvesterhci.io/ip-pool: "vip"
 spec:
   selector:
     k8s-app: coredns-test
