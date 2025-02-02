@@ -5,7 +5,7 @@ metadata:
   namespace: default
   annotations:
     loadbalancer.harvesterhci.io/network: "default/untaggednetwork"
-    loadbalancer.harvesterhci.io/project: "c-m-22hz8849/p-bz9cv"
+    loadbalancer.harvesterhci.io/project: "default"
     loadbalancer.harvesterhci.io/namespace: "default"
 spec:
   selector:
